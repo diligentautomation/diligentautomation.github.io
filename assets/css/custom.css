@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Roboto:700');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', 'Montserrat, sans-serif !important;
+}
+body { 
+    font-weight: 300;
+    font-family: '"Open Sans"', sans-serif !important;
+}
+
+#service1{
+    text-align: center !important;
+}
+#service1 .ser-icon{
+    float: none !important;
+}
+#service1 .content{
+    margin-left: 0px !important;
+    text-align: center !important;
+}
+#service1 .feature-one h3:after{
+    display: none !important;
+}
+#catogories{
+    padding-top: 100px;
+}
+#chooseus{
+    padding-top: 100px
+}
+.gp-btn{
+    height: 35px !important;
+    padding:7px 35px !important; 
+}
+
+#catogories .col-md-4{
+    padding: -2px 0 !important;
+}
+#catogories .service-items p{
+    text-align: justify !important;
+}
+#about .tab ul li {
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+}
+#service .fa{
+    font-size: 50px !important;
+    margin:0 0 0 44px !important;
+    padding-bottom:15px !important; 
+}
+#catogories svg{
+    display: none;
+}
+#catogories .feature-one{
+    margin: 0 15px;
+}
+#catogories .feature-one .content{
+    margin: inherit !important;
+} 
+#catogories .feature-one .content a{
+    margin-top: 15px; 
+}
+#chooseus{
+    margin-bottom: 25px !important;
+}
