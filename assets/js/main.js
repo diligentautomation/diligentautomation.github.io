@@ -288,19 +288,3 @@
   new PureCounter();
 
 })()
-
-function sendEmail() {
-  let userEmail= document.getElementById("email").value;
-  let subject = document.getElementById("subject").value;
-  let body =-document.getElementById("message").value;
-  Email.send({
-  Host: "smtp.gmail.com",
-  Username: userEmail,
-  To: "byjupv@gmail.com",
-  From: userEmail,
-  Subject: subject,
-  Body: body,
-  }).then(
-      message => alert("Sent successfully.")
-  );
-}
